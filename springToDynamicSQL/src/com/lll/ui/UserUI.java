@@ -30,7 +30,7 @@ public class UserUI {
 	public String addtest3(HttpServletRequest request) {
         System.out.println("ok");
         //增加数据源
-        dynamicDatasource.addDataSource("dataSourceNew2", "47.100.9.124", 3306, "test3", "root", "Mysql#2019");
+        dynamicDatasource.addDataSource("dataSourceNew2", "**.**.*.***", 3306, "test3", "root", "Mysql#2019");
         //指定使用的数据源
         DataSourceUtils.setDbKey("dataSourceNew2");
        
